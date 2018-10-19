@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   counter = 1
   while swapped do 
     swapped = false 
-    (n-c).times do |i|
+    (n-counter).times do |i|
       if name_hash[array[i]] > name_hash[array[i + 1]]
         array[i], array[i + 1] = array[i + 1], array[i]
         swapped = true
